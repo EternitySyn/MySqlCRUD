@@ -18,7 +18,7 @@ const createUser = async (username, email, password) => {
   }
 
   const q = `INSERT INTO users (id, username, email, password) VALUES (?,?,?,?)`
-
+ // generacion de UUID
   const [response] = await db.query(q, [crypto.randomUUID(), username, email, password])
 
   if (response.serverStatus === 2) {

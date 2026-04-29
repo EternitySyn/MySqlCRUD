@@ -6,9 +6,9 @@ const getUsers = async () => {
   return response
 }
 
-// declaración de función → enseñarle a la pc lo que tiene que hacer
+// declaración de funciónes
 const createUser = async (username, email, password) => {
-  // VALIDAR
+  // validaciones
   if (!username || !email || !password) {
     return "Data invalida, necesitas enviar username, email y password para registrar un usuario."
   }

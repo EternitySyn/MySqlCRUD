@@ -1,4 +1,4 @@
-# CLI de Gestión de Usuarios
+# CLI de Gestión de Usuarios SQL
 
 Aplicación de línea de comandos (CLI) para gestionar usuarios con operaciones CRUD mediante una interfaz de terminal.
 
@@ -20,6 +20,7 @@ npm install
 npm install mysql2
 ```
 
+3. Preparar la base de datos MySql con el script.sql adjuntado.
 ---
 
 ## 🛠️ Uso
